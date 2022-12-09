@@ -17,6 +17,7 @@ $color-lightgrey: rgba(0,0,0,.5);
 
 
 $font-family-serif: 'Lato', sans-serif;
+$font-family-sans-serif: 'Permanent Marker', cursive;
 
 // BREAKPOINTS
 $breakpoint-small: 768px;
@@ -34,6 +35,33 @@ $breakpoint-large: 1250px;
 @import "partials/structure";
 @import "partials/sitenav";
 @import "partials/animations";
+@import "partials/form"; 
 
 
+
+// contact page styling
+.page-contact {
+    .hero {
+        // display: block;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+// Footer styling
+.newsletter-title {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    
+}
+
+.site-footer {
+    h2,h3 {
+        color: white;
+    }
+}
 

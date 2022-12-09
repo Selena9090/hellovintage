@@ -3,7 +3,7 @@ body { color: $color-text-body; }
 h1, h2, h3, h4, h5, h6 { color: $color-text-headings; }
 
 /* BASE TEXT FONTS */
-body {  font-family: $font-family-sans; }
+body {  font-family: $font-family-serif; }
 h1, h2, h3, h4, h5, h6 { font-family: $font-family-serif; }
 
 /* BASE TYPOGRAPHY */
@@ -58,7 +58,7 @@ hr {
 /* SECTION HEADING */
 .section-heading {
     font-size: 1em;
-    font-family: $font-family-sans;
+    font-family: $font-family-serif;
     font-weight: normal;
     text-transform: uppercase;
     letter-spacing: .05em;

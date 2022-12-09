@@ -6,11 +6,17 @@
     background-color: $color-link;
     color: black;
     text-decoration: none;
-    padding: 2em;
+    padding: 1em;
+    border: solid #1a1a1a 3px;
     border-radius: 20px;
+    box-shadow: 0px 10px 0px #1a1a1a;
 
     &:hover {
         background-color: $color-link-dark;
+        color: rgba(255, 255, 255, 1);
+        top: 2px;
+        box-shadow: 0px 10px 0px #1a1a1a;
     }
 
 }
+

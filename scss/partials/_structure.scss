@@ -31,14 +31,27 @@
 
 /* SITE FOOTER */
 .site-footer {
-    background: $color-text-body; 
+    background: black; 
     display: flex;
-    padding: 1em;
+    padding: 3em 1em;
     justify-content: center;
     
     a {
         color: white;
         text-decoration: none;
+    }
+
+    h2,h3 {
+        font-size: x-large;
+    }
+
+    .row {
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .column {
+        min-width: 10%;
     }
 }
 
@@ -77,6 +90,25 @@ section {
     .product-wrapper-card {
         background-color: #E00786;
         border-radius: 30px;
+    }
+
+    .hand-written {
+        font-family: $font-family-sans-serif;
+        color: #E33157;
+    }
+
+    .arrival-tag {
+        background-color: white;
+        border-radius: 1px;
+        width: 200px;
+
+        h6 {
+            font-weight: 100;
+        }
+
+        h3 {
+            color: #EEC41A;
+        }
     }
 }
 
