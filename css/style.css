@@ -351,6 +351,7 @@ section {
 .hero .product-wrapper-card {
   background-color: #E00786;
   border-radius: 30px;
+  position: relative;
 }
 .hero .hand-written {
   font-family: "Permanent Marker", cursive;
@@ -359,13 +360,21 @@ section {
 .hero .arrival-tag {
   background-color: white;
   border-radius: 1px;
-  width: 200px;
+  width: 100px;
 }
 .hero .arrival-tag h6 {
   font-weight: 100;
 }
-.hero .arrival-tag h3 {
+.hero .arrival-tag h4 {
   color: #EEC41A;
+}
+
+.hero .arrival-tag {
+  position: absolute;
+  top: 0;
+  left: 80%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 /* SITE-NAV */

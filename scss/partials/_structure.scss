@@ -90,6 +90,7 @@ section {
     .product-wrapper-card {
         background-color: #E00786;
         border-radius: 30px;
+        position: relative;
     }
 
     .hand-written {
@@ -100,15 +101,22 @@ section {
     .arrival-tag {
         background-color: white;
         border-radius: 1px;
-        width: 200px;
+        width: 100px;
 
         h6 {
             font-weight: 100;
         }
 
-        h3 {
+        h4 {
             color: #EEC41A;
         }
     }
+}
+
+.hero .arrival-tag {
+    position: absolute;
+    top: 0;
+    left: 80%;
+    transform: translateX(-50%);
 }
 
